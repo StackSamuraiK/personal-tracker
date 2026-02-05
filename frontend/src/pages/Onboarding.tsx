@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { profileAPI, aiAPI } from '../services/api';
+import { profileAPI } from '../services/api';
 import '../styles/Onboarding.css';
 
 export default function Onboarding() {
